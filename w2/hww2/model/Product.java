@@ -43,6 +43,6 @@ public class Product {
 
     @Override
     public String toString() {
-        return id + " | " + name + " | " + price + " | tồn: " + stock;
+        return id + " | " + name + " | " + price + " | remain: " + stock;
     }
 }
